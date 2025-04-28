@@ -39,6 +39,10 @@ lasles-vpn-project/
 
 ![LaslesVPN UI Screenshot](/lasles-vpn-project/finalimages/LaslesVPNimage1.png) 
 
+## 🌍 Live Demo
+The LaslesVPN Landing Page is deployed and live on Vercel. You can view it here:
+[LaslesVPN Landing Page](https://tailwindcss-mastery.vercel.app)
+
 ## 📌 Installation
 
 Clone the repo and open `index.html` in your browser:
