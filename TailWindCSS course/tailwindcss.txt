@@ -1,0 +1,9 @@
+What is Tailwind?
+- A utility-first CSS framework for creating custom, responsive designs with pre-defined, low-level styles.
+
+Why is Tailwind helpful?
+- Overcomes limitations of traditional CSS frameworks and custom CSS by providing more flexibility and customization.
+- Reusable utilities and design settings, ensuring a consistent and easy-to-manage design.
+- Styling directly in HTML, minimising the need to switch between HTML and CSS files.
+- Low-level utilities, allowing for custom designs without need to override pre-designed components.
+- Built-in responsive and mobile-first utilities make easy to create layouts that adapt seamlessly across diffirent devices.
