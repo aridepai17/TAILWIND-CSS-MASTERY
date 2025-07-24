@@ -1,0 +1,18 @@
+What's new inTailwindv4.0?
+
+- FasterBuilds: Experience upto 5x faster builds and over 100x faster incremental builds iwth a high-new performance engine.
+- ModernCSS Features: Built with the latest CSS advancements like cascade layers and color-mix().
+- Simplified Installation: Fewer dependencies and one-liner ot include in your CSS file.
+- Vite Plugin Integration: Seamless setup with a first-party Vite plugin for better performance.
+- Automatic Content Detection: Tailwind now automatically detects all your template files.
+- Easy CSS Imports: Import multiple CSS files without extra tools.
+- CSS-first Configuration: Customize and extend directly in CSS, no JavaScript config needed.
+- Design Tokens as CSS variables: Access design tokens anywhere with native CSS variables.
+- Dynamic Utility Values: More flexible utility values and variants for custom styling.
+- Updated Color Palette: Brighter, more vivid colors optimized for modern displays.
+- Container Queries: Style elements based on container size without plugins.
+- 3D Transform Utilities: Apply 3D transformations directly in your HTML.
+- Expanded Gradient Options: Radial and conic gradients with more customization options.
+- @starting-style for Transitions: Create enter and exit transitions without JavaScript.
+- not- Variant*: Style elements conditionallly when they don't match other variants.
+- More Utilities and Variants: Including color-scheme, complex shadows, inert, and more.
