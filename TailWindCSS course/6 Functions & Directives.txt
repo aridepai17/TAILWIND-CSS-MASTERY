@@ -1,0 +1,75 @@
+FUNCTIONS & DIRECTIVES
+
+A. Directives
+Let's talk directives – these are Tailwind's special
+commands that make your CSS do a little jig.
+
+1. @tailwind 
+This big boss directs the orchestra. It brings Tailwind's base, components, utilities, and variant styles inot your CSS.
+It's like your backstage pass to the styling show.
+
+Examples:
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+
+2. @layer 
+Meet the directory of categories - base, components, and utilities.
+You get to tell your styles which bucket to hop into.
+
+Examples:
+@layer base {
+  / Your base styles here /
+}
+@layer components {
+  / Your component styles here /
+}
+@layer utilities {
+  / Your utility styles here /
+}
+
+
+3. @apply
+This one's a ninja. It lets you sneak in existing utility classes into your custom CSS.
+Think of it like mixing and matching style ingredients.
+
+Example:
+.custom button {
+  @apply bg-blue-400 text-white font-bold py-2 rounded;
+}
+
+
+4. @utility
+Use the @utility directive to add custom utilities to your project that work with variants like hover, focus and lg:
+
+@utility tab-4 {
+  tab-size: 4;
+}
+
+
+5. @theme 
+Use the @theme directive to define your project's custom design tokens, like fonts, colors, and breakpoints:
+
+Example:
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+  
+  --breakpoint-3xl: 1920px;
+
+  --color-avocado-100: oklch(0.99, 0 0);
+  --color-avocado-200: oklch(0.98, 0 0);
+  --color-avocado-300: oklch(0.97, 0 0);
+  --color-avocado-400: oklch(0.96, 0 0);
+  --color-avocado-500: oklch(0.95, 0 0);
+  --color-avocado-600: oklch(0.94, 0 0);
+
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+}
+
+
+6. @plugin
+Use the @plugin drective to load a legacy JavaScript-based plugin:
+@plugin "@tailwindcss/typography"
