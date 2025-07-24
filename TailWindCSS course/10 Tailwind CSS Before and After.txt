@@ -1,0 +1,9 @@
+TAILWIND CSS Before and After 
+
+Style the ::before and ::after pseudo-elements using the before and after modifiers:
+
+<span class="after:content-['*'] after:ml-0.5 after:text-red-500 block ...">Email</span>
+
+When using these modifiers, Tailwind will automatically
+add content: ' ' by default so you don’t have to specify it
+unless you want a different value.
