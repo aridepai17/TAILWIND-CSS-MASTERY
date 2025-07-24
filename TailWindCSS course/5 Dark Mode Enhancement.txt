@@ -1,0 +1,51 @@
+DARK MODE ENHANCEMENT
+
+Tailwind CSS not only excels at responsive design but also
+seamlessly integrates dark mode styling into your web
+projects. With the dark mode variant, you can effortlessly
+adapt your website's appearance when users switch to
+dark mode.
+
+Just like everything else, setting up and styling for dark and
+light themes is easier than before.
+
+To use dark mode, we need to make a small change. We
+have to modify the configuration to include the dark class. 
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      // ...
+    },
+  },
+  plugins: [],
+}
+
+If we don't specify it, the theme styles will automatically
+adapt based on the user's Operating System preference –
+quite interesting!
+We only need to mention this field if we want to offer a
+theme toggle on the website. It's a choice we make!
+
+SOME IMPORTANT TERMS IN DARK MODE 
+
+1. dark:bg-slate-800
+This utility sets teh background color of the card to a darker shade, when dark mode is enabled.
+This creates a visually distinct experience for users who prefer dark themes.
+
+2. dark:text-white
+Here, the link text inside the card is set to white in dark mode. 
+This ensures good readablity and maintains a consistent design aesthetic.
+
+3. dark:text-gray-300
+Teh paragraph text is given a gray color to provide a suitable contrast while maintaining the dark mode look.
+
+Tailwind makes dark mode implementation hassle-free by
+automatically detecting the user's preferred color scheme
+through the prefers-color-scheme CSS media feature.
+
+By incorporating these dark mode utilities, you enhance the
+UX and demonstrate your attention to detail by providing a
+design that adapts to different viewing preferences.
