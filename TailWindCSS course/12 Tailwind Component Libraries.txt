@@ -1,0 +1,51 @@
+TAILWIND COMPONENT LIBRARIES 
+
+1. Tailwind UI 
+A premium collection of meticulously crafted user interface components and templates built using Tailwind CSS framework.
+
+2. Headless UI 
+A set of unstyled, fully accessible UI components that can be used as a foundation for creating custom designs. Built by creators of Tailwind CSS.
+
+3. Shadcn 
+Shadcn combines the power of Tailwind with artistic designs. Beautifully designed components built with Radix UI and Tailwind CSS.
+
+4. Tailkit 
+Tail-kit provides a comprehensive set of carefully crafted, easy to customize, fully responsive UI components, Templates & Tools for your Tailwind CSS.
+
+5. Radix 
+Radix UI is a cutting-edge toolkit designed to create advanced UI components with an emphasis on accessibility and user experience.
+
+6. Preline 
+Preline UI is an open-source set of prebuilt UI components based on the utility-first Tailwind CSS framework. With a focus on high-quality design.
+
+7. Daisy UI 
+The most popular component library for Tailwind CSS. daisyUI adds component class names to Tailwind CSS so you can make beautiful websites faster than ever.
+
+8. Hyper UI 
+Explore an extensive array of ready-to-use components, organized into three distinct categories:
+marketing, e-commerce, and applications. 
+
+9. Sailboat UI 
+Contemporary Tailwind CSS component library with 150+ rich components for app & product development.
+Each offers multiple variations to suit your requirement. 
+
+10. Tailwind Elements 
+With more than 500 tailwind components. These components are based on the Bootstrap framework,
+but they have a better design & a lot more functional.
+
+11. Tailwind Templates  
+This is a library that contains a wide variety of free and paid templates. They have a collection of around 25 templates,
+mostly geared toward startup and saas 
+
+12. Tailblocks 
+A collection of predefined Tailwind CSS components designed to facilitate rapid website prototyping and development. 
+
+13. Mamba UI 
+It offers a wide selection of 150+ Tailwind components and templates with versatile styles. It's adaptable for various frameworks like Angular, Vue, React, Svelte, etc.
+
+14. Sira 
+Sira a design system with reusable components. Compatible with Vue, React, and more. 
+Offers themes, dark mode, & predefined Tailwind styles.
+
+15. TailGrids
+Contains over 500 complimentary and premium components, blocks, sections, and templates, this kit offers an extensive selection.
