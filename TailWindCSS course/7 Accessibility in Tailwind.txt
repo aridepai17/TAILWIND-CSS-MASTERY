@@ -1,0 +1,14 @@
+ACCESSIBILITY IN TAILWIND
+
+1. Hiding on Demand: not-sr-only Class
+Now, let’s say you want to show the text for larger screens
+but keep it hidden for smaller ones. The sr-only sm:not-sr-only
+class combo is your ticket to this flex.
+
+
+2. Creating Bridges to Inclusion
+Tailwind’s accessibility utilities are like bridges that connect
+all users to your content. 
+With sr-only and not-sr-only, you’re weaving a tapestry
+of inclusivity where everyone gets a front-row seat, no
+matter how they experience your site.
