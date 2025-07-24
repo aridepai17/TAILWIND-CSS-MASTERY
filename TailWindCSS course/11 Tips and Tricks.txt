@@ -1,0 +1,60 @@
+TIPS AND TRICKS 
+
+Now that you have understood, what tailwindcss is and how it works, let's explore a few tip nad tricks.
+
+ACCENT 
+Changes the default browser color for elements like checkboxes and radio groups.
+
+<div class="my-4 flex flex-col">
+  <label> <input type="checkbox" checked /> Browser Default </label>
+  <label> <input type="checkbox" class="accent-pink-500" checked /> Accent Pink </label>
+</div>
+
+
+FLUID TEXTS
+Usually, when building a responsive website, we have to take care of the text size on different devices. 
+Something like this:
+
+<p class="sm:text-7xl text-5xl">Something Nice</p>
+
+Using the custom style approach we discussed and the min CSS function, we can do something like this:
+
+<p class="text-[min(10vw,70px)]">Something Fluid</p>
+
+The result, the second approach is much better and more responsive than the other. 
+Instead of relying on the media screen, we kind of calculate the value depending on the
+screen size automatically.
+
+
+LESS JAVASCRIPT 
+If you take the time to learn it well, you can perform certain tasks that are typically done using
+JavaScript with tailwindcss alone, without requiring JavaScript. 
+
+
+FILE 
+If you worked with file inputs, you know the pain of stylingthe default layout.
+Thankfully, Tailwindcss provides a better solution.
+Use the file: prefix and use any utility to customize the input however you want.
+
+
+HIGHLIGHT 
+Do you want to override the default blue or other highlight that appears when a user selects a text on your website?
+Tailwindcss’s selection is a way to go.
+
+<div class="selection:bg-green-400 selection:text-white">
+  <p>Subscribe to JavaScript Mastery YT channel</p>
+</div> 
+
+
+CARET 
+Not a fan of white or black caret? Use tailwindcss then,
+
+<textarea class="w-full border border-zinc-300 caret-pink-500 p-2" placeholder="Type ..."></textarea>
+
+Try typing it into textarea, and you’ll notice the caret color to be pink.
+
+
+MANY MORE 
+These are just a handful of examples. 
+Tailwindcss offers many unique tools such as those for different states like before: & active:, styles that work only on certain screen sizes 
+like landscape or portrait, styles for ARIA and screen readers, gradients animations, and it even lets you apply distinct styles when printing. 
